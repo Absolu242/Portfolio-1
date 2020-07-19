@@ -1,0 +1,60 @@
+.Project {
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.Project-content {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  top: 35px;
+}
+
+.Project-content .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Project-content .top span {
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.Project-content .main {
+  padding: 20px 0;
+}
+
+.Project-content .date {
+  color: grey;
+  position: relative;
+  font-size: 13px;
+  top: 20px;
+}
+
+.Project-content .tech {
+  position: relative;
+  top: 50px;
+}
+
+.Project-content .tech span {
+  background-color: #eff7f6;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=Project.css.map */

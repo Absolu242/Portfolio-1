@@ -1,0 +1,53 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-content {
+  position: absolute;
+  margin: auto;
+  width: 80%;
+}
+
+.hero-content div {
+  width: 50%;
+}
+
+.hero-content div p {
+  font-size: 15px;
+  padding: 20px 0;
+}
+
+.hero-content div input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .hero-content div {
+    width: 100%;
+  }
+  .hero-content div input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */

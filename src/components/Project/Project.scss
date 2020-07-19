@@ -1,0 +1,52 @@
+.Project{
+    border:1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+  
+
+    &-content{
+        position: relative;
+        width:90%;
+        height: 100%;
+        top:35px;
+       
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+
+            span{
+                padding: 5px;
+                border-radius:10px;
+                font-size:13px;
+                font-weight: bold;
+
+                &.category{
+
+                }
+            }
+        }
+
+        .main{
+            padding:20px 0;
+        }
+        .date{
+            color:grey;
+            position: relative;
+            font-size: 13px;;
+            top:20px;
+        }
+        .tech{
+            position: relative;
+            top:50px;
+            span{
+                background-color: #eff7f6;
+                margin-right: 5px;
+                padding: 5px;
+                border-radius:5px;
+            }
+        }
+    } 
+}

@@ -1,0 +1,66 @@
+{
+    "Projects":[
+        {
+            "id":1,
+            "name":"Project 1",
+            "date":"On Monday November 6, 2018",
+            "tech":["React","Sass","Redux","MERN"],
+            "category":"e-commerce",
+            "type":"CompleteWebsite",
+            "color":"#7BDFF2"
+        },
+        {
+            "id":2,
+            "name":"Project 2",
+            "date":"On Sunday January 7, 2019",
+            "tech":["React","Redux"],
+            "category":"blog",
+            "type":"CompleteWebsite",
+            "color":"#f2b5d4"
+
+        },
+        {
+            "id":3,
+            "name":"Project 3",
+            "date":"On Tuesday January 9, 2018",
+            "tech":["Gatsby","Redux"],
+            "category":"e-commerce",
+            "type":"CompleteWebsite",
+            "color":"#7BDFF2"
+
+        },
+
+        {
+            "id":4,
+            "name":"Project 4",
+            "date":"On Monday November 6, 2018",
+            "tech":["React","Sass","Redux","MERN"],
+            "category":"e-commerce",
+            "type":"CompleteWebsite",
+            "color":"#7BDFF2"
+
+        },
+        {
+            "id":5,
+            "name":"Project 5",
+            "date":"On Sunday January 7, 2019",
+            "tech":["React","Redux"],
+            "category":"blog",
+            "type":"CompleteWebsite",
+            "color":"#f2b5d4"
+
+        },
+        {
+            "id":6,
+            "name":"Project 6",
+            "date":"On Tuesday January 9, 2018", 
+            "tech":["Gatsby","Redux"],
+            "category":"blog",
+            "type":"CompleteWebsite",
+            "color":"#f2b5d4"
+
+        }
+    ],
+    "techList":["React","HTML/CSS","Redux","MERN","Gatsby","Python"]
+            
+}
